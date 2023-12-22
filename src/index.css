@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-content: center;
+  justify-content: center;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.app h1{
+  color: black;
+  margin-bottom: 10px;
+  font-family: serif;
+}
+
+.app p{
+  color: #9c9c9c;
+  margin-bottom: 25px;
+}
+
+.app button.add-link{
+  color: #4f3e84;
+  border: 1px solid #4f3e84;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.app .links{
+  display: flex;
+  background-color: #fafafa;
+  height: 200px;
+  justify-content: center;
+}
+
+.app .links select{
+  margin-top: 15px;
+  height: 20px;
+}
+
+.app .links input{
+  margin-top: 15px;
+  height: 20px;
+}
+
+.app li{
+  text-decoration: none;
+}
+
+.app ul{
+  text-decoration: none;
+}
